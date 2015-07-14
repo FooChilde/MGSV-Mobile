@@ -1,0 +1,88 @@
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/audio5js/0.1.10/audio5.min.js"></script>
+
+<div id="wrapperHeader">
+    <div id="header">
+             <img src="http://www.konami.jp/mgs5/_img/countdown/tpp_logo.png" width="775" height="223" alt="logo" align="center" />
+    </div> 
+</div>
+
+<div id="tpp">
+  <div class="set">
+    <div id="chgcontents">
+      <div class="timerarea" style="visibility: visible;">
+        <div class="timer animcls">
+          <div class="clock">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/second.png" class="number js-num js-key0" style="left: -0px; top: -0px;">
+          </div>
+          <div class="nums sec2">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_s.png" class="number js-num js-key1" style="left: -0px;">
+          </div>
+          <div class="nums sec1">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_s.png" class="number js-num js-key2" style="left: -0px;">
+          </div>
+          <div class="numl min2">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_l.png" class="number js-num js-key3" style="left: -0px;">
+          </div>
+          <div class="numl min1">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_l.png" class="number js-num js-key4" style="left: -0px;">
+          </div>
+          <div class="coron">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/dot.png" class="number">
+          </div>
+          <div class="numl hour2">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_l.png" class="number js-num js-key5" style="left: -0px;">
+          </div>
+          <div class="numl hour1">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_l.png" class="number js-num js-key6" style="left: -0px;">
+          </div>
+          <div class="numl day2">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_l.png" class="number js-num js-key7" style="left: -0px;">
+          </div>
+          <div class="numl day1">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/num_l.png" class="number js-num js-key8" style="left: -0px;">
+          </div>
+          <div class="base-">
+            <img src="http://gvgmaps.com/mgs5/_img/countdown/timer/base-.png">
+          </div>
+        </div>
+        <p class="phantomcigar">
+          <a href="javascript:void(0);"><img src="http://gvgmaps.com/mgs5/_img/countdown/phantomcigar.png" alt="phantomcigar" class="imgover"></a>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<p id='demo'></p>
+<script>
+  var motherfuckingreleasedate = new Date('09/01/2015 03:00 AM');
+
+  var _second = 1000;
+  var _minute = _second * 60;
+  var _hour = _minute * 60;
+  var _day = _hour * 24;
+  var timer;
+
+  function showRemaining() {
+    var todaysmotherfuckingdate = new Date();
+    var dif_time = motherfuckingreleasedate - todaysmotherfuckingdate;
+    if (dif_time < 0) {
+
+      clearInterval(timer);
+
+      return;
+    }
+    var days = Math.floor(dif_time / _day);
+    var hours = Math.floor((dif_time % _day) / _hour);
+    var minutes = Math.floor((dif_time % _hour) / _minute);
+    var seconds = Math.floor((dif_time % _minute) / _second);
+  }
+
+  timer = setInterval(showRemaining, 1000);
+</script>
+
+</html>

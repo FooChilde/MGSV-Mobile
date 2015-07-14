@@ -1,0 +1,423 @@
+html { 
+  background: url(http://i.imgur.com/jKfepty.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+#tpp .set {
+  width: 10.357%;
+  height: 0%;
+  text-align: center;
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  -webkit-transform: scale(2,2)
+}
+
+#tpp .set .timerarea {
+  width: 425px;
+  height: 185px;
+  overflow: visible;
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  margin:  auto 20 auto;
+  visibility: hidden;
+}
+
+#tpp .set .timerarea .timerttl {
+  position: relative;
+}
+
+#tpp .set .timerarea .timer {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  left: -3.5%;
+  top: 0;
+  right: 0;
+  background: url(http://gvgmaps.com/mgs5/_img/countdown/timer/base_set.png) no-repeat top left;
+}
+
+.timer .clock {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  left: 4px;
+  top: 4px;
+}
+
+.timer .number {
+  position: relative;
+}
+
+.timer .nums {
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.timer .nums.sec2 {
+  left: 104px;
+  top: 119px;
+}
+
+.timer .nums.sec1 {
+  left: 122px;
+  top: 119px;
+}
+
+.timer .numl {
+  position: absolute;
+  width: 45px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.timer .numl.min2 {
+  left: 50px;
+  top: 112px;
+}
+
+.timer .numl.min1 {
+  left: 73px;
+  top: 112px;
+}
+
+.timer .numl.hour2 {
+  left: -9px;
+  top: 112px;
+}
+
+.timer .numl.hour1 {
+  left: 14px;
+  top: 112px;
+}
+
+.timer .numl.day2 {
+  left: 91px;
+  top: 68px;
+}
+
+.timer .numl.day1 {
+  left: 114px;
+  top: 68px;
+}
+
+.timer .coron {
+  position: absolute;
+  left: 63px;
+  top: 111px;
+}
+
+.timer .base- {
+  display: none;
+}
+
+.js-key0 {
+  left: 0;
+  top: 0;
+}
+
+.js-key1 {
+  left: -280px;
+  top: 0;
+}
+
+.js-key2 {
+  left: -280px;
+  top: 0;
+}
+
+.js-key3 {
+  left: -360px;
+  top: 0;
+}
+
+.js-key4 {
+  left: -360px;
+  top: 0;
+}
+
+.js-key5 {
+  left: -360px;
+  top: 0;
+}
+
+.js-key6 {
+  left: -360px;
+  top: 0;
+}
+
+.js-key7 {
+  left: -360px;
+  top: 0;
+}
+
+.js-key8 {
+  left: -360px;
+  top: 0;
+}
+
+.releasedate {
+  margin: 0 0 5% 0;
+}
+
+.releasebtnbox {
+  width: 75%;
+  margin: 5% auto 0 auto;
+  background-size: cover;
+}
+
+.releasebtnbox .btn {
+  padding: 8.5% 2% 4% 2%;
+}
+
+#chgcontents {
+  position: relative;
+}
+
+#chgcontents .date {
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+#chgcontents .date .pc {
+  position: absolute;
+  left: 120%;
+  top: -20px;
+  width: 30%;
+  height: auto;
+}
+
+body#top #tpp {
+  width: 60%;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 71%;
+}
+
+body#top #tpp .timerarea {
+  width: 60%;
+  position: relative;
+  left: 0%;
+  visibility: hidden;
+  margin: 0 auto;
+}
+
+body#top #tpp .timerarea .timerttl {
+  width: 50%;
+}
+
+body#top #tpp .timerarea .timer {
+  background: url("http://gvgmaps.com/mgs5/_img/countdown/timer/base_set.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  height: 170px;
+  position: absolute;
+  left: 55%;
+  top: 0;
+  width: 170px;
+}
+
+body#top #tpp .timerarea .timer .clock .number {
+  width: 1000px;
+  height: 600px;
+  max-width: 1000px;
+}
+
+body#top #tpp .timerarea .timer .nums {
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  width: 35px;
+}
+
+body#top #tpp .timerarea .timer .nums img {
+  width: 350px;
+  max-width: 350px;
+}
+
+body#top #tpp .timerarea .timer .numl {
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  width: 45px;
+}
+
+body#top #tpp .timerarea .timer .numl img {
+  width: 450px;
+  max-width: 450px;
+}
+
+body#top #tpp .releasedate {
+  width: 60%;
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+body#top #subBox #cdbtn {
+  margin: 0 0 10px 0
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  body#top #tpp {
+    width: 100%;
+    height: 190px;
+    position: relative;
+    left: 0;
+    top: 0%;
+  }
+  body#top #tpp.update {
+    height: auto;
+  }
+  body#top #tpp.update .releasedate {
+    padding: 10px 0;
+  }
+  body#top #subBox #cdbtn {
+    width: 50%;
+    margin: 0 auto 10px;
+  }
+}
+
+@media screen and (max-width: '50'px) {
+  /* 768px以下の記述 */
+  
+  #tpp .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #tpp .set {
+    width: 96%;
+    top: 0%;
+    left: 3.3%;
+    position: relative;
+    padding-top: 52%;
+  }
+  #tpp .set .timerarea {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    position: relative;
+    margin: 0 0 0 auto;
+    visibility: hidden;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #tpp .set .timerarea .timerttl {
+    width: 96%;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  #tpp .set .timerarea .timerttl .sp {
+    width: 100%;
+    position: relative;
+    right: 0%;
+    top: 0;
+  }
+  #tpp .set .timerarea .timer {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    left: 0%;
+    top: 0;
+    margin: 0 auto;
+  }
+  .releasedate {
+    width: 75%;
+    margin: 0 auto 5% auto;
+  }
+  .releasedate img {
+    width: 100%;
+    height: auto;
+  }
+  .releasebtnbox {
+    width: 80%;
+    margin: 5% auto 0 auto;
+    background-size: cover;
+    border: 2px solid #850303;
+  }
+  .releasebtnbox .btn {
+    padding: 11.7% 2% 4% 2%;
+  }
+  #chgcontents {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    padding-left: 3.3%;
+    padding-top: 2%;
+  }
+  #chgcontents .date {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  #chgcontents .date .sp {
+    margin: 5% auto 5% auto;
+    width: 50%;
+  }
+  body#top #tpp {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0%;
+    padding: 20px 10px;
+  }
+  body#top #tpp .timerarea {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    left: auto;
+  }
+  body#top #tpp .timerarea .timerttl {
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  body#top #tpp .timerarea .timer {
+    background: url("http://gvgmaps.com/mgs5/_img/countdown/timer/base_set.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    right: 1%;
+    top: 0;
+    width: 170px;
+    left: auto;
+    margin: 0 auto;
+  }
+  body#top #tpp .releasedate {
+    width: 76%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    left: auto;
+    padding-top: 0;
+  }
+}
+
+.phantomcigar {
+  margin: 195px 0px 0 0;
+}
+
+@media screen and (max-width: 40px) {
+  /* 768px以下の記述 */
+  
+  .phantomcigar {
+    margin: 15px 0 25px 0;
+    text-align: center;
+  }
+}
